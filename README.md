@@ -22,10 +22,6 @@ There are 3 ways to do so:
 While all 3 methods are valid ones, to reduce the complexity of the
 debugging/configuration/OS matrix, we'll only recommend the last one.
 
-**WARNING:** Do note that installing `Go` via `homebrew` on `MacOSX`
-is known to have some deficiencies. On `Macs`, it is really
-recommended you use the manual method.
-
 #### Installing `Go` manually
 
 This is best explained on the official page:
@@ -137,12 +133,13 @@ golang.org/x/tools/cmd/present
 Extensive documentation on how to setup your editor (for code
 highlighting, code completion, ...) is available here:
 
- https://code.google.com/p/go-wiki/wiki/IDEsAndTextEditorPlugins
+ https://github.com/golang/go/wiki/IDEsAndTextEditorPlugins
  
-At the very least, you should try to install and setup `goimports` as
-explained here:
+At the very least, you should try to install and setup `goimports`:
 
- https://godoc.org/code.google.com/p/go.tools/cmd/goimports
+```sh
+$ go get golang.org/x/tools/cmd/goimports
+```
 
 `goimports` provides automatic code formating as well as automated
 insertion/deletion of used/unused packages (in your `import` package
