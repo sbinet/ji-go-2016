@@ -6,7 +6,7 @@ hands-on session of the [JI-2016](http://ji.in2p3.fr)
 
 An online version of the slides is served [here](https://talks.godoc.org/github.com/sbinet/ji-go-2016/talk.slide#1).
 
-For the talk about *ADVANCED* concurrent programming go [here](https://talks.godoc.org/github.com/sbinet/whispering-gophers/talk.slide#1).
+For the talk about *ADVANCED* concurrent programming go [here](https://talks.godoc.org/github.com/sbinet/ji-go-adv-2016/talk.slide#1).
 
 ## Bootstrapping the work environment
 
