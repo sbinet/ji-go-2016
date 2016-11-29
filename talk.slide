@@ -743,7 +743,7 @@ A typical example is the `compress/gzip.NewReader` function which takes an `io.R
 
 .code _code/gz-r.go /START OMIT/,/END OMIT/
 
- $ cat $GOPATH/src/github.com/sbinet/ji-conf-go-2016/testdata/data.gz | my-gunzip
+ $ cat $GOPATH/src/github.com/sbinet/ji-go-2016/testdata/data.gz | my-gunzip
 
 * ex-04 - V
 
